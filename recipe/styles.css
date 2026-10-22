@@ -47,3 +47,7 @@ h2, h3, h4, h5, h6 {
     float: right;
     margin-left: 30px;
 }
+/*changing the hyperlinks from blue to green #36421a*/
+a {
+  color: #4a5a24; 
+}
