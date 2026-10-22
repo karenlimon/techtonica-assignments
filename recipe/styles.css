@@ -1,7 +1,16 @@
 p {
-  color: blue;
+  color: black;
 }
 
 body {
   background-color: #f3dbb1; /* Cream color */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 700;
+  color: #a12623;
+  line-height: 1.2;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
 }
