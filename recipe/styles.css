@@ -31,5 +31,11 @@ h2, h3, h4, h5, h6 {
 
 /*Adding width constraint to the first paragraph with recipe description */
 .description {
-  width: 600px;
+    width: 600px;
+}
+
+/*left class selector*/
+.left {
+    width: 600px;
+    float: left;
 }
