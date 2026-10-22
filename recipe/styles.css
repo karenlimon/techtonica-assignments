@@ -27,3 +27,9 @@ h2, h3, h4, h5, h6 {
     "wdth" 100;
   color: #a12623;
 }
+
+
+/*Adding width constraint to the first paragraph with recipe description */
+.description {
+  width: 600px;
+}
