@@ -34,8 +34,14 @@ h2, h3, h4, h5, h6 {
     width: 600px;
 }
 
-/*left class selector*/
+/*left class selector with instructions and other recipe links*/
 .left {
     width: 600px;
     float: left;
+}
+
+/*right class selector with ingredients*/
+.right {
+    width: 600px;
+    float: right;
 }
