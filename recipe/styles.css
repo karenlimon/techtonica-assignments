@@ -1,0 +1,52 @@
+body {
+  background-color: #f3dbb1; /* Cream color */
+}
+
+h1 {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 2.5rem;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 200;
+  color: #a12623;
+}
+
+
+h2 {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  color: #a12623;
+}
+
+p {
+  color: black;
+}
+
+/*Adding width constraint to the first paragraph with recipe description */
+.description {
+    width: 600px;
+}
+
+/*left class selector with instructions and other recipe links*/
+.left {
+    width: 600px;
+    float: left;
+    margin-top: 0;
+}
+
+/*right class selector with ingredients*/
+.right {
+    width: 600px;
+    float: right;
+    margin-left: 30px;
+}
+/*changing the hyperlinks from blue to green #36421a*/
+a {
+  color: #4a5a24; 
+}

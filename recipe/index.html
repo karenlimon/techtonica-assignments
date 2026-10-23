@@ -1,10 +1,79 @@
 <!DOCTYPE html>
-<html>
-    <body>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Page</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <!-- rel specified the relationship with the stylesheet, type identifies the content type and href aka the hypertext reference provides the file or path that is on the folder-->
 
-        <h1>My First Website!</h1>
-        <p>My Awesome Recipe.</p>
+     <!-- embeded code for Bricolage Grotesque font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet">
+</head>
 
+<body>
 
-    </body>
+    <div class="top"> <!--Start of div 1-->
+    
+        <h1>Café de Olla (Mexican Coffee)</h1>
+    
+        <p class="description"> Coffee has always been a part of my life. As a little girl, I would sit at the dinner table with my mother and grandmother while they sipped their coffee in the evening debriefing after their long days. Today, making my morning coffee has become my version of my daily ritual and one of the ways I love to show love to the beautiful people in my life. I'm so excited to share this traditional spiced version with you! It's infused with warm, cozy flavors like cinnamon, star anise, and clove. Whether you like your coffee hot or poured over ice, this recipe is perfect for anyone craving a comforting, flavorful cup.
+        </p>
+
+    </div>
+
+    <div class="left"> <!-- Start of div 2, this container holds the image-->
+        <div>
+
+            <img src="https://azteca.co.za/wp-content/uploads/2026/04/Mexican-Spiced-Coffee-Cafe-de-Olla-1024x683.jpg"
+            alt="Coffee in a mug made out of Mexican clay. Star anise, cinnamon, piloncillo, and a concha surround it over 
+            blue and multi-colored cloth" width="600">
+
+            <p>Photo credit: 
+                <a href="https://azteca.co.za/recipe/mexican-spiced-coffee-cafe-de-olla/?srsltid=AU7gw4UwCigZyWHhLOS3fBYoSmvqB9g5VzL6W136UesJQOxn_QX-7uLZ">Azteca Mexican Food Products</a>
+            </p>
+
+        </div>
+    
+        <div>
+            <h2>Ingredients:</h2>
+            <ul>
+                <li>8-10 cups water (the less water you have, the stronger it will be)</li>
+                <li>1 8oz piloncillo</li>
+                <li>2-3 cinnamon sticks</li>
+                <li>1 star anise</li>
+                <li>3-4 cloves</li>
+                <li>1 teaspoon of vanilla extract (or paste)</li>
+                <li>1 cup of ground coffee</li>
+                <li>Optional: small orange peel</li>
+            </ul>
+        </div>
+
+    </div>
+    
+    <div class="right"> <!-- Start of div 3, container with instructions and hyperlinks-->
+        <div>
+            <h2>Instructions:</h2>
+
+            <ol>
+                <li>Add your water to a pot and bring your water to a boil.</li>
+                <li>Once your water is simmering, add your piloncillo, cinnamon sticks, star anise, cloves, and vanilla.</li>
+                <li>Let all the ingredients infuse until the piloncillo has completely dissolved.</li>
+                <li>Once your piloncillo has dissolved, bring the hear down to a simmer and add the coffee grounds into the pot. Allow the coffee to simmer for 3 minutes.</li>
+                <li>Remove the pot from the heat, and let the coffee steep for about 5-10 minutes.</li>
+                <li>Pour coffee through a strainer to remove the coffee grounds and remove the spices.</li>
+                <li>Enjoy your coffee hot or pour it over ice.</li>
+            </ol>
+        </div>
+
+        <div>
+            <h2>Other Cafe de Olla recipes to try:</h2>
+            <a href="https://www.mexicoinmykitchen.com/cafe-de-olla-recipe/">Mexico in My Kitchen's Café de Olla Recipe (Mexican Spiced Coffee)</a>
+            <br> <!--the <br> adds a break between the hyperlinks since they are inline elements-->
+            <a href="https://patijinich.com/cafe_de_olla_or_coffee_from_the_pot/">Pati Jinich's Comfort me with Café de Olla</a>
+        </div>
+    </div>
+</body>
 </html>
