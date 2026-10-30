@@ -26,6 +26,7 @@ h2 {
 
 p {
   color: black;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 /*Adding width constraint to the first paragraph with recipe description */
