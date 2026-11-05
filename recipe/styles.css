@@ -31,6 +31,13 @@ p {
   font-family: 'Times New Roman', Times, serif;
 }
 
+/*image to scale on mobile*/
+img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+
 /*Adding width constraint to the first paragraph with recipe description */
 .description {
     width: 600px;
@@ -59,6 +66,5 @@ a {
 .container-fluid {
 /* Update the font to match the headers */
   font-family: "Bricolage Grotesque", sans-serif;
-/*Update the font color so that the contrast makes it accessible */
-
 }
+
