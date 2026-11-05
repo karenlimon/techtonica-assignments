@@ -63,7 +63,8 @@ a {
 
 /*NAVBAR Styling */
 .container-fluid .navbar .navbar-brand, 
-.container-fluid .navbar-nav .nav-link {
+.container-fluid .navbar-nav .nav-link,
+.container-fluid .navbar .navbar-nav .nav-link {
 /* Update the font to match the headers */
   font-family: "Bricolage Grotesque", sans-serif;
   color: #f3dbb1;
