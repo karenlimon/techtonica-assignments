@@ -56,6 +56,10 @@ a {
 }
 
 /*NAVBAR Styling */
+.container-fluid {
 /*Change the color of the navbar to be red */
+  background-color: #a12623; 
 /* Update the font to match the headers */
 /*Update the font color so that the contrast makes it accessible */
+
+}
