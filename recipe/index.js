@@ -14,8 +14,10 @@ document.getElementById('ingredients').appendChild(newListItem);
 const myDiv = document.getElementById("ingredients");
 
 //create a button on HTML and grab button using js and the DOM
-//create a button with the label "click here to create your grocery list"
+const groceryButton = document.getElementById("groceryButton1")
 //add event listener that waits for user to click on button
+//syntax is element.addEventListener(event, function, useCapture)
+groceryButton.addEventListener("click", newList);
 
 
 //create loop here to add the rest of the ingredients list
@@ -55,8 +57,8 @@ function newList() {
             });
         //creating checkbox element
     }
-//calling the function so that it runs
-newList();
+
+
 
 
 
