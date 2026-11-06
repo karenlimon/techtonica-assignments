@@ -13,26 +13,47 @@ document.getElementById('ingredients').appendChild(newListItem);
 //adding checkboxes on ingredients
 const myDiv = document.getElementById("ingredients");
 
-//creating checkbox element
-const checkbox = document.createElement("input");
+//create loop here to add the rest of the ingredients list
+//creating variable that points to all items on the list
+//loop through each item on the list
 
-//assigning the attributes to created checkbox
-checkbox.type = "checkbox";
-checkbox.name = "name";
-checkbox.value = "value";
-checkbox.box = "id";
+//create a button "click here to create your grocery list"
 
-//creating label for checkbox
-const label = document.createElement("label");
+function newList() {
+    const ingredientList = document.querySelectorAll('#ingredients li');
+    ingredientList.forEach((item) => {
 
-//assigning attributes for the label tag
-label.htmlFor = "id";
+        const newLabel = item.textContent; //new variable to capture text labels on html items
+        item.textContent = ""; //sets item content to blank
 
-//appending the created text to the created label tag
-label.appendChild(
-    document.createTextNode("This creates a label for the checkbox.")
-);
+        const checkbox = document.createElement("input");
 
-//appending the checkbox and label to div
-myDiv.appendChild(checkbox);
-myDiv.appendChild(label);
+        //assigning the attributes to created checkbox
+        checkbox.type = "checkbox";
+        checkbox.name = "name";
+        checkbox.value = "value";
+        checkbox.box = "id";
+
+        //creating label for checkbox
+        const label = document.createElement("label");
+
+        //assigning attributes for the label tag, sets the label to hookup with input named id
+        label.htmlFor = "id";
+
+        //appending the created text to the created label tag using the item names on html
+        label.appendChild(
+            document.createTextNode(newLabel)
+        );
+
+        //appending the checkbox and label to div
+        item.appendChild(checkbox);
+        item.appendChild(label);
+
+            });
+        //creating checkbox element
+    }
+//calling the function so that it runs
+newList();
+
+
+
