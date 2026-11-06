@@ -79,6 +79,5 @@ a {
   color: #f3dbb1;
 }
 
-.checked {
-  text-decoration: line-through;
-}
+/*media query for screens smaller than 600px*/
+@media (max-width: 600px) {.right {float: left; margin-left: 0px}}
