@@ -44,6 +44,10 @@ img {
 
 .top {
   margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 /*left class selector with instructions and other recipe links*/
