@@ -70,3 +70,10 @@ a {
   color: #f3dbb1;
 }
 
+.container .left .groceryButton {
+  border-radius: 8px;
+  background-color: #4a5a24; /*green*/
+  font-family: "Bricolage Grotesque", sans-serif;
+  color: #f3dbb1;
+}
+
