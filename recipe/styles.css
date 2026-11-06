@@ -47,6 +47,7 @@ img {
     width: 600px;
     float: left;
     margin-top: 0;
+    padding: 20px;
 }
 
 /*right class selector with ingredients*/
@@ -54,6 +55,7 @@ img {
     width: 600px;
     float: right;
     margin-left: 30px;
+    padding: 20px
 }
 /*changing the hyperlinks from blue to green #36421a*/
 a {
@@ -77,3 +79,6 @@ a {
   color: #f3dbb1;
 }
 
+.checked {
+  text-decoration: line-through;
+}
