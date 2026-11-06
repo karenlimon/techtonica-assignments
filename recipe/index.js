@@ -23,7 +23,6 @@ groceryButton.addEventListener("click", newList);
 //create loop here to add the rest of the ingredients list
 //creating variable that points to all items on the list
 //loop through each item on the list
-
 function newList() {
     const ingredientList = document.querySelectorAll('#ingredients li');
     ingredientList.forEach((item) => {
@@ -54,11 +53,11 @@ function newList() {
         item.appendChild(checkbox);
         item.appendChild(label);
 
+        //adding strikethrough if checked
+        //add event listener to checkbox and indicate you want a strike on the text
+        
+
             });
-        //creating checkbox element
     }
-
-
-
 
 
