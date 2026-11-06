@@ -13,11 +13,14 @@ document.getElementById('ingredients').appendChild(newListItem);
 //adding checkboxes on ingredients
 const myDiv = document.getElementById("ingredients");
 
+//create a button on HTML and grab button using js and the DOM
+//create a button with the label "click here to create your grocery list"
+//add event listener that waits for user to click on button
+
+
 //create loop here to add the rest of the ingredients list
 //creating variable that points to all items on the list
 //loop through each item on the list
-
-//create a button "click here to create your grocery list"
 
 function newList() {
     const ingredientList = document.querySelectorAll('#ingredients li');
