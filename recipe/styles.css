@@ -1,0 +1,95 @@
+body {
+  background-color: #f3dbb1; /* Cream color */
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 0;
+}
+
+h1 {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 2.5rem;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 200;
+  color: #a12623;
+}
+
+h2 {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  color: #a12623;
+}
+
+p {
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/*image to scale on mobile*/
+img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+
+/*Adding width constraint to the first paragraph with recipe description */
+.description {
+    width: 600px;
+}
+
+.top {
+  margin-top: 10px;
+}
+
+/*left class selector with instructions and other recipe links*/
+.left {
+    width: 600px;
+    float: left;
+    margin-top: 0;
+    padding: 20px;
+}
+
+/*right class selector with ingredients*/
+.right {
+    width: 600px;
+    float: right;
+    margin-left: 30px;
+    padding: 20px
+}
+
+.otherRecipes {
+  padding: 20px
+}
+
+/*changing the hyperlinks from blue to green #36421a*/
+a {
+  color: #4a5a24;
+  text-decoration: underline; 
+}
+
+/*NAVBAR Styling */
+.container-fluid .navbar .navbar-brand, 
+.container-fluid .navbar-nav .nav-link,
+.container-fluid .navbar .navbar-nav .nav-link {
+/* Update the font to match the headers */
+  font-family: "Bricolage Grotesque", sans-serif;
+  color: #f3dbb1;
+}
+
+.container .left .groceryButton {
+  border-radius: 8px;
+  background-color: #4a5a24; /*green*/
+  font-family: "Bricolage Grotesque", sans-serif;
+  color: #f3dbb1;
+}
+
+/*media query for screens smaller than 600px*/
+@media (max-width: 600px) {
+  .right {float: left; margin-left: -15px}
+  .otherRecipes {float: left; margin-left: -15px}
+}
