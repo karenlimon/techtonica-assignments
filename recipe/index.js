@@ -25,6 +25,7 @@ groceryButton.addEventListener("click", newList);
 //loop through each item on the list
 function newList() {
     const ingredientList = document.querySelectorAll('#ingredients li');
+    ingredientNum = 1;
     ingredientList.forEach((item) => {
 
         const newLabel = item.textContent; //new variable to capture text labels on html items
@@ -34,15 +35,13 @@ function newList() {
 
         //assigning the attributes to created checkbox
         checkbox.type = "checkbox";
-        checkbox.name = "name";
-        checkbox.value = "value";
-        checkbox.box = "id";
+        checkbox.name = "ingredient-" + ingredientNum;
 
         //creating label for checkbox
         const label = document.createElement("label");
 
         //assigning attributes for the label tag, sets the label to hookup with input named id
-        label.htmlFor = "id";
+        label.htmlFor = "ingredient-" + ingredientNum;
 
         //appending the created text to the created label tag using the item names on html
         label.appendChild(
@@ -62,7 +61,7 @@ function newList() {
             label.style.textDecoration = "none";
              }
         });
-
+        ingredientNum++;
         });
     }
 
