@@ -57,7 +57,7 @@ function newList() {
         //add event listener to checkbox and indicate you want a strike on the text
         //if else statement
         checkbox.addEventListener("change", function () {if (this.checked) {
-            label.style.textDecoration = "line-through";
+            label.style.textDecoration = "line-through wavy";
             } else {
             label.style.textDecoration = "none";
              }
