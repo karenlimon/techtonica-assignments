@@ -1,19 +1,24 @@
-.header1 {
-  font-family: "Redaction 50", serif;
-  font-weight: 700;
-  font-style: normal;
-}
 
-.header2 {
+header {
   font-family: "Redaction 50", serif;
   font-weight: 400;
   font-style: normal;
+  color: #50586C;
+}
+
+.skills {
+  font-family: "Redaction 50", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #50586C;
 }
 
 body {
   font-family: "Redaction 50", serif;
   font-weight: 400;
   font-style: normal;
+  background-color: #FCF6F5; /*change color of page body to snow white color */
+  color: #50586C;
 }
 
 /*Selfie with border overlay*/ 
