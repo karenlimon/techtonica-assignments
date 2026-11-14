@@ -15,3 +15,30 @@ body {
   font-weight: 400;
   font-style: normal;
 }
+
+/*Selfie with border overlay*/ 
+.photo-frame {
+  position: relative;
+  width: 400px;          /* Set an explicit width so it cannot blow up */
+  max-width: 100%;       /* Keeps it responsive on smaller screens */
+  overflow: hidden;      /* Hard-crops anything outside the box */
+}
+
+.my-selfie {
+  position: absolute;
+  /* Pulls the photo inward by 15px on all sides so corners don't poke out */
+  inset: 15px;           
+  width: calc(100% - 30px);  /* Must be 100% minus double the inset value */
+  height: calc(100% - 30px);
+  object-fit: cover;     /* Prevents stretching */
+  z-index: 1;
+}
+
+.border-overlay {
+  display: block;
+  width: 100%;           /* Forces the border to match the container width */
+  height: auto;
+  position: relative;
+  z-index: 2;
+  pointer-events: none;
+}
