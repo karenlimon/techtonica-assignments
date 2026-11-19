@@ -130,14 +130,15 @@
     <!-- div 8/<form> contact form: name (required), email (required), phone number (not required), and address (not required)-->
         <form class="item contact-form" style="grid-area: box-8">
             <fieldset>
-                
+
             <div class="contact-top">
-                <legend>Contact me! :-] </legend>
-                <!-- aria-hidden="true" tells screen readers to ignore the asterisk so users do not hear awkward symbols read aloud since the screen reader automatically announces the field as "required"-->
-                 <p>I'd like to hear from you.</p>
+
             </div>
 
-            <div class="contact-left">    
+            <div class="contact-left"> 
+                <legend>Contact me! :-] </legend>
+                <!-- aria-hidden="true" tells screen readers to ignore the asterisk so users do not hear awkward symbols read aloud since the screen reader automatically announces the field as "required"-->
+                 <p>I'd like to hear from you.</p>   
             <!-- Name, Email, Phone -->
                 <div>
                     <label for="name">Name:<span class="requiredField" aria-hidden="true">*</span></label><br>
@@ -171,10 +172,7 @@
                 <div class="contact-right">
                     <div>
                         <label for="address">Address:</label><br>
-                        <input 
-                            type="" 
-                            id="address" 
-                            name="address">
+                        <input type="text" id="address" name="address">
                     </div> 
 
                     <div>

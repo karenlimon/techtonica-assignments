@@ -208,6 +208,7 @@ body .grid-container .about-me p {
 .grid-container .contact-form .contact-right {
   float: right;
   margin-left: 20px;
+  margin-top: 30px;
 }
 
 .grid-container .contact-form .submit-bottom {
